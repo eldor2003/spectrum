@@ -1,0 +1,39 @@
+.econom{
+    border-radius: 50px;
+    background: #6236FF;
+    .container{
+        padding-top: 100px;
+        padding-bottom: 70px;
+        position: relative;
+    }
+    .desc{
+        color: var(--white);
+        max-width: 587px;
+    }
+    .caption{
+        color: var(--white);
+        margin: 0 0 20px 0;
+    }
+    .section_title{
+        color: var(--white);
+        margin: 0 0 30px 0;
+    }
+    .econom_image{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0,-50%);
+        max-height: 100%;
+        width: auto;
+    }
+    @media (max-width: 768px){
+        border-radius: 0;
+        .container{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .econom_image{
+            display: none;
+        }
+    }
+}
