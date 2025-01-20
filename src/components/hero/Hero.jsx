@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Hero = () => {
 	return (
 		<section className='hero'>
@@ -14,9 +14,9 @@ const Hero = () => {
 					their business using blockchain and stackablecoins backed by physical
 					gold.
 				</p>
-				<a href='#' className='btn_ btn_blue'>
+				<Link href='/' className='btn_ btn_blue'>
 					Contact us
-				</a>
+				</Link>
 			</div>
 			<img
 				src='/images/hero_image1.png'

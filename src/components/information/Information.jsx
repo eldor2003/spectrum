@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Information = () => {
 	return (
 		<section className='information'>
@@ -37,9 +37,9 @@ const Information = () => {
 									settlements in a decentralized environment.
 								</p>
 							</div>
-							<a href='#' className='read_more'>
+							<Link href='/' className='read_more'>
 								Learn More
-							</a>
+							</Link>
 						</div>
 						<div className='info_item'>
 							<div>
@@ -53,9 +53,9 @@ const Information = () => {
 									of Reserves are implemented.
 								</p>
 							</div>
-							<a href='#' className='read_more'>
+							<Link href='/' className='read_more'>
 								Learn More
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

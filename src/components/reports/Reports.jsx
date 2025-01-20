@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Reports = () => {
 	return (
 		<section className='reports'>
@@ -8,9 +8,9 @@ const Reports = () => {
 				<h2 className='section_title'>
 					We make all reports accessible because your funds matter
 				</h2>
-				<a href='#' className='btn_ btn_white'>
+				<Link href='/' className='btn_ btn_white'>
 					View reports
-				</a>
+				</Link>
 				<img
 					src='/images/report_image.png'
 					alt='Report Image'

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Contact = () => {
@@ -86,7 +87,7 @@ const Contact = () => {
 							from these communications at any time. For information on how to
 							unsubscribe, as well as our privacy practices and commitment to
 							protecting your privacy, please review our{" "}
-							<a href='#'>Privacy Policy</a>
+							<Link href='/'>Privacy Policy</Link>
 						</p>
 						<button type='submit' className='btn_ btn_blue'>
 							Submit

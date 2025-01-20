@@ -1,38 +1,38 @@
 import React from "react";
-
+import Link from "next/link";
 const Footer = () => {
 	return (
 		<footer>
 			<div className='container'>
 				<div className='header_row'>
-					<a href='#' className='brand_logo'>
+					<Link href='#' className='brand_logo'>
 						<img src='/images/icons/logo1.svg' alt='Spectrum logo' />
-					</a>
+					</Link>
 					<div className='header_right'>
 						<ul className='header_links'>
 							<li>
-								<a href='#'>Products</a>
+								<Link href='/'>Products</Link>
 							</li>
 							<li>
-								<a href='#'>Transparency</a>
+								<Link href='/'>Transparency</Link>
 							</li>
 							<li>
-								<a href='#'>Insights</a>
+								<Link href='/'>Insights</Link>
 							</li>
 							<li>
-								<a href='#'>Company</a>
+								<Link href='/'>Company</Link>
 							</li>
 							<li>
-								<a href='#'>Developers</a>
+								<Link href='/'>Developers</Link>
 							</li>
 						</ul>
 						<div className='header_btns'>
-							<a href='#' className='btn_ btn_blue'>
+							<Link href='#' className='btn_ btn_blue'>
 								Contact us
-							</a>
-							<a href='#' className='btn_'>
+							</Link>
+							<Link href='#' className='btn_'>
 								Sign In
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
