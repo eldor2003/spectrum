@@ -35,7 +35,7 @@ const Token = () => {
 					</div>
 					<div className='token_item'>
 						<div className='token_title'>
-							<img src='/images/icons/token1.svg' alt='Everscale blockchain' />
+							<img src='/images/icons/token2.svg' alt='Everscale blockchain' />
 							Everscale blockchain
 						</div>
 						<p className='desc'>
@@ -48,7 +48,7 @@ const Token = () => {
 					<div className='token_item'>
 						<div className='token_title'>
 							<img
-								src='/images/icons/token1.svg'
+								src='/images/icons/token3.svg'
 								alt='Affordability and low fees'
 							/>
 							Affordability and low fees
@@ -62,7 +62,7 @@ const Token = () => {
 					<div className='token_item'>
 						<div className='token_title'>
 							<img
-								src='/images/icons/token1.svg'
+								src='/images/icons/token4.svg'
 								alt='Flexible B2B solutions'
 							/>
 							Flexible B2B solutions
@@ -75,7 +75,7 @@ const Token = () => {
 					</div>
 					<div className='token_item'>
 						<div className='token_title'>
-							<img src='/images/icons/token1.svg' alt='Proof of Reserves' />
+							<img src='/images/icons/token5.svg' alt='Proof of Reserves' />
 							Proof of Reserves
 						</div>
 						<p className='desc'>
@@ -87,7 +87,7 @@ const Token = () => {
 					<div className='token_item'>
 						<div className='token_title'>
 							<img
-								src='/images/icons/token1.svg'
+								src='/images/icons/token6.svg'
 								alt='Emergency stabilization'
 							/>
 							Emergency stabilization

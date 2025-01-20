@@ -27,7 +27,7 @@ const Footer = () => {
 							</li>
 						</ul>
 						<div className='header_btns'>
-							<Link href='#' className='btn_ btn_blue'>
+							<Link href='#contacts' className='btn_ btn_blue'>
 								Contact us
 							</Link>
 							<Link href='#' className='btn_'>

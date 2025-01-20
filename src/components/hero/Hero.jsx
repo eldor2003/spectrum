@@ -17,17 +17,17 @@ const Hero = () => {
 				<Link href='/' className='btn_ btn_blue'>
 					Contact us
 				</Link>
+				<img
+					src='/images/hero_image1.png'
+					alt='Hero Image 1'
+					className='hero_image1'
+				/>
+				<img
+					src='/images/hero_image2.png'
+					alt='Hero Image 2'
+					className='hero_image2'
+				/>
 			</div>
-			<img
-				src='/images/hero_image1.png'
-				alt='Hero Image 1'
-				className='hero_image1'
-			/>
-			<img
-				src='/images/hero_image2.png'
-				alt='Hero Image 2'
-				className='hero_image2'
-			/>
 		</section>
 	);
 };
